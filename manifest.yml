@@ -2,7 +2,7 @@
 applications:
 - name: pcfdemo
   memory: 512M 
-  instances: 2
+  instances: 4
   host: pcfdemo-${random-word}
   path: ./target/pcfdemo.war
   env:
